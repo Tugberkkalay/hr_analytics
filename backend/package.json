@@ -1,1 +1,1 @@
-{}
+{\n  "name": "hr-analytics-backend",\n  "version": "1.0.0",\n  "description": "HR Analytics Backend API",\n  "main": "server.js",\n  "scripts": {\n    "start": "node server.js",\n    "dev": "nodemon server.js"\n  },\n  "dependencies": {\n    "express": "^4.18.2",\n    "cors": "^2.8.5",\n    "dotenv": "^16.0.3",\n    "multer": "^1.4.5-lts.1",\n    "xlsx": "^0.18.5",\n    "csv-parser": "^3.0.0"\n  },\n  "devDependencies": {\n    "nodemon": "^2.0.20"\n  }\n}
